@@ -16,7 +16,7 @@ jobs:
         uses: Doradx/notion2markdown-action@v1
         with:
           notion_secret: ${{ secrets.NOTION_SECRET }}
-          database_id: "a2a70d82655a42b382921fb3d644acb0"
+          database_id: "d2b2269e312846358dbd9d9776b98ef5"
           metas_excluded: pstatus,ptype
 
 
