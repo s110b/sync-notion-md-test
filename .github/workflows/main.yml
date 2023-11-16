@@ -17,6 +17,8 @@ jobs:
         with:
           notion_secret: ${{ secrets.NOTION_SECRET }}
           database_id: "a2a70d82655a42b382921fb3d644acb0"
+          metas_excluded: pstatus,ptype
+
 
   
 
